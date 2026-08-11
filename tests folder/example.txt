@@ -1,0 +1,36 @@
+case 1 (Create and Display):
+Enter your choice (1-5): 1
+Enter Student ID (e.g., 2023-001): 101
+Enter Student Name: Jane Doe
+Enter enrolled courses (comma-separated, e.g., Math, Science): Math, Biology
+Enter grades for Prelim, Midterm, and Finals (comma-separated, e.g., 85, 90, 88): 90, 92, 95
+Case 1 Result: Student added successfully!
+Enter your choice (1-5): 4
+Case 1 Result: ID: 101 | Name: Jane Doe | Courses: ['Math', 'Biology'] | Grades: (90.0, 92.0, 95.0)
+
+
+case 2 (Read):
+Enter your choice (1-5): 2
+Enter Student ID to search: 101
+Case 2 Result: 
+Record for ID: 101
+Name: Jane Doe
+Courses: Math, Biology
+Grades (Prelim, Midterm, Finals): (90.0, 92.0, 95.0)
+
+Enter your choice (1-5): 2
+Enter Student ID to search: 999
+Case 2 Result: Error: Student record not found.
+
+
+case 3 (Update):
+Enter your choice (1-5): 3
+Enter Student ID to update: 101
+Note: Leave a field blank and press Enter to keep the current value.
+Enter new Name (Jane Doe): 
+Enter new courses (Math, Biology): Math, Biology, Chemistry
+Enter new grades (90.0, 92.0, 95.0): 
+Case 3 Result: Student record updated successfully!
+
+Enter your choice (1-5): 4
+Case 3 Result: ID: 101 | Name: Jane Doe | Courses: ['Math', 'Biology', 'Chemistry'] | Grades: (90.0, 92.0, 95.0)
